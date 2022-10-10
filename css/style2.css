@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+body {
+    background: url('../img/bgimg.jpg') no-repeat;
+}
+
+#signup {
+
+    background: url(../img/lgnimg.jpg) no-repeat;
+    height: 419px;
+    width: 549px;
+    border: 5px whitesmoke;
+    border-style: double;
+    border-radius: 117px;
+    padding: 111px 60px 111px 60px;
+    margin: auto;
+    margin-top: 26px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+
+}
+
+.log {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    font-size: 4rem;
+    color: whitesmoke;
+}
+
+input {
+    height: 40px;
+    width: 425px;
+    margin: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    border-radius: 20px;
+}
+
+#uid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 35px;
+}
+
+
+#bg {
+    background-color: rgb(0, 0, 0,0.3);
+    height: 534px;
+    width: 579px;
+    border-radius: 117px;
+    padding: 67px 45px 45px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+#bg img{
+    height: 60px;
+    width: 60px;
+    border-radius: 12px;
+}
+
+#sup{
+    width: 160px;
+}
+
+#sup:hover{
+    background-color: rgb(0, 220, 77);
+    color: whitesmoke;
+}

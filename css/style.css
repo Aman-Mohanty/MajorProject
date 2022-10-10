@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    font-size: 3rem;
+    color: rgb(5, 99, 5);
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.navbar-brand:hover {
+    color: green;
+}
+
+.nav-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: large;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: green;
+}
+
+.search {
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid #00be00;
+}
+.btn0:hover {
+    color: #00be00;
+    background-color: #FFFFFF;
+    border: 2px solid #00be00;
+}
+
+.btn0 {
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: #00be00;
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+
+.main {
+    background: url(../img/background.jpg) no-repeat;
+    background-size: contain;
+    height: 105vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+
+.main h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: 'Lobster', cursive;
+    color: rgb(66, 17, 29);
+}
+
+.card-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #00be00;
+    border-color: #00be00;
+}
